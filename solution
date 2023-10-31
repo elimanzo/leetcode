@@ -1,5 +1,0 @@
-// https://leetcode.com/problems/power-of-two/
-// 0231-power-of-two
-function isPowerOfTwo(n: number): boolean {
-  return Math.log2(n) % 2 === 1 || Math.log2(n) % 2 === 0;
-};
