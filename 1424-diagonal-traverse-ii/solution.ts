@@ -12,5 +12,5 @@ function findDiagonalOrder(nums: number[][]): number[] {
     }
   }
 
-  return res.flatMap(num => num.reverse()).filter(Boolean);
+  return res.flatMap(num => num.reverse());
 };
