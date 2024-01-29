@@ -38,3 +38,13 @@ function binarySearch(arr: number[], target: number): boolean {
 //   }
 //   return freq[0] > 1;
 // };
+
+// function checkIfExist(arr: number[]): boolean {
+//   const set = new Set();
+//   return arr.some((n) => {
+//     if(set.has(n / 2) || set.has(n * 2)) {
+//       return true;
+//     }
+//     set.add(n);
+//   });
+// };
